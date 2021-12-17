@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+  font-size: 100%;
+  color: black;
+}
+body {
+  margin: auto;
+  max-width: 600px;
+  border: red solid 1px;
+  padding: 5px;
+ 
+}
+.cardo {
+  background: #fff;
+  border: black solid 1px;
+  padding: 2px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+
+}
+.cardu {
+    background: #fff;
+    border: black solid 1px;
+    padding: 2px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+  
+  }
+img {
+    margin: 5px;
+    max-width: 280px;
+}
+.text {
+    margin: 5px;
+}
