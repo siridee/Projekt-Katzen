@@ -13,7 +13,6 @@ body {
   max-width: 600px;
   border: red solid 1px;
   padding: 5px;
- 
 }
 .cardo {
   background: #fff;
@@ -22,8 +21,8 @@ body {
   margin-top: 20px;
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   flex-direction: row;
-
 }
 .cardu {
     background: #fff;
@@ -32,13 +31,14 @@ body {
     margin-top: 20px;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     flex-direction: row-reverse;
   
   }
-img {
-    margin: 5px;
-    max-width: 280px;
-}
-.text {
-    margin: 5px;
-}
+  img {
+    margin: 2px;
+    max-width:280px;
+  }
+    text {
+      margin: 10px;
+    }
