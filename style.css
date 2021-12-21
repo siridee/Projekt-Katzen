@@ -25,20 +25,19 @@ body {
   flex-direction: row;
 }
 .cardu {
-    background: #fff;
-    border: black solid 1px;
-    padding: 2px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row-reverse;
-  
-  }
-  img {
-    margin: 2px;
-    max-width:280px;
-  }
-    .text {
-      margin: 10px;
-    }
+  background: #fff;
+  border: black solid 1px;
+  padding: 2px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+img {
+max-width: 280px;
+  display: block;
+}
+.text {
+  margin: 10px;
+}
